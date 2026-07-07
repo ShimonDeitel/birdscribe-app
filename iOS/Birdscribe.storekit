@@ -1,0 +1,41 @@
+{
+  "identifier" : "Birdscribe",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "birdscribe_group",
+      "localizations" : [],
+      "name" : "Birdscribe Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "birdscribe_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Photo attachments per sighting and species checklist by region",
+              "displayName" : "Birdscribe Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "birdscribe_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Birdscribe Pro Monthly",
+          "subscriptionGroupID" : "birdscribe_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
