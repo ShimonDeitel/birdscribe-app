@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(species: String, location: String, habitat: String, notes: String) {
+    func add(name: String, species: String, location: String, habitat: String, notes: String) {
         guard canAddMore else { return }
         let entry = SightingEntry(name: name, species: species, location: location, habitat: habitat, notes: notes)
         entries.insert(entry, at: 0)
